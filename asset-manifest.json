@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8861c739.chunk.css",
-    "main.js": "/static/js/main.293b4790.chunk.js",
-    "main.js.map": "/static/js/main.293b4790.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.953cf5ed.chunk.js": "/static/js/2.953cf5ed.chunk.js",
-    "static/js/2.953cf5ed.chunk.js.map": "/static/js/2.953cf5ed.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1e001b19d6dc24a28feadd6165b4704d.js": "/precache-manifest.1e001b19d6dc24a28feadd6165b4704d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8861c739.chunk.css.map": "/static/css/main.8861c739.chunk.css.map"
+    "main.css": "/andersons-birthday/static/css/main.8861c739.chunk.css",
+    "main.js": "/andersons-birthday/static/js/main.293b4790.chunk.js",
+    "main.js.map": "/andersons-birthday/static/js/main.293b4790.chunk.js.map",
+    "runtime~main.js": "/andersons-birthday/static/js/runtime~main.3aa6fbf3.js",
+    "runtime~main.js.map": "/andersons-birthday/static/js/runtime~main.3aa6fbf3.js.map",
+    "static/js/2.953cf5ed.chunk.js": "/andersons-birthday/static/js/2.953cf5ed.chunk.js",
+    "static/js/2.953cf5ed.chunk.js.map": "/andersons-birthday/static/js/2.953cf5ed.chunk.js.map",
+    "index.html": "/andersons-birthday/index.html",
+    "precache-manifest.48b6a8f707e4f4f237a24fc21f029297.js": "/andersons-birthday/precache-manifest.48b6a8f707e4f4f237a24fc21f029297.js",
+    "service-worker.js": "/andersons-birthday/service-worker.js",
+    "static/css/main.8861c739.chunk.css.map": "/andersons-birthday/static/css/main.8861c739.chunk.css.map"
   }
 }
