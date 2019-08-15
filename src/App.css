@@ -5,11 +5,16 @@ body, html, #root, .app {
     padding: 0;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     background: #363f48;
     color: white;
     font: normal 12px 'Open Sans', sans-serif;
-    margin-top: 20px;
 }
 
 .app {
@@ -17,10 +22,41 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-image: url('./profile.jpg');
+    background-size: 300px;
 }
 
-.app > span {
-    font-size: 80px;
+.app-wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+}
+
+h1 {
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.app-wrapper > span {
+    font-size: 40px;
     font-weight: 300;
     line-height: 80px;
+}
+
+@media (min-width: 768px) {
+    .app-wrapper > span {
+        font-size: 80px;
+    }
+}
+
+.firework,
+.certification-image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 20px;
 }
