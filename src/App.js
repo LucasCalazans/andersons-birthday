@@ -17,8 +17,16 @@ const App = () => {
     };
 
     useEffect(() => {
-        if (!['#parab%C3%A9ns', '#parabens'].includes(document.location.hash) || ['#parab%C3%A9ns=1', '#parabens=1'].includes(document.location.hash)) {
+        if (!['#parab%C3%A9ns', '#parabens'].includes(document.location.hash)) {
             setTimeout(() => setFinished(isCompleted()), 1500);
+        }
+
+        if (['#parab%C3%A9ns=1', '#parabens=1'].includes(document.location.hash)) {
+            setTimeout(() => setFinished(false), 1500);
+        }
+
+        if (['#parab%C3%A9ns=2', '#parabens=2'].includes(document.location.hash)) {
+            setTimeout(() => setFinished(true), 1500);
         }
     }, []);
 
