@@ -3,7 +3,7 @@ import './App.css';
 import Countdown from 'react-countdown-now';
 import Finished from './Finished';
 
-const THE_MOST_AWAITED_DAY = new Date(2019, 7, 17);
+const THE_MOST_AWAITED_DAY = new Date(2020, 7, 17);
 
 const App = () => {
     let countDownRef = useRef(null);
